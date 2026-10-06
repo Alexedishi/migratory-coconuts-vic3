@@ -1,29 +1,29 @@
-﻿#bird_flock_east_atlantic = {
-#	entities = {
+﻿bird_flock_east_atlantic = {
+	entities = {
 
-#		skin_1 = {
-#			name = "migratory_coconut_01_entity"
-#			possible = {
-#			}
+		skin_1 = {
+			name = "migratory_coconut_01_entity"
+			possible = {
+			}
 
-#			weight = {
-#				value = 1
-#			}
-#		}
-#	}
+			weight = {
+				value = 1
+			}
+		}
+	}
 
 
-#	breeding_latitude = { 2600 3400 }
-#	wintering_latitude = { 900 2044 }
+	breeding_latitude = { 2600 3400 }
+	wintering_latitude = { 900 2044 }
 
-#	breeding_regions = { region_western_europe }
-#	wintering_regions = { region_north_africa }
+	breeding_regions = { region_western_europe }
+	wintering_regions = { region_north_africa }
 
-#	depart_in = { spring }
-#	return_in = { autumn }
-#
-#	entity_length = 3.0
-#	speed = 5.0
-#	max_count = 15
-#	height = 6.0
-#}
+	depart_in = { spring }
+	return_in = { autumn }
+
+	entity_length = 3.0
+	speed = 5.0
+	max_count = 15
+	height = 6.0
+}
