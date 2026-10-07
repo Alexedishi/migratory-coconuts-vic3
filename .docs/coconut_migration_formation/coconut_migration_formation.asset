@@ -1,0 +1,15 @@
+﻿pdxmesh = {
+	name = "coconut_migrationformation_01_mesh"
+	file = "coconut_migrationformation_01.mesh"
+
+	animation = { id = "coconut_migrationformation_01" type = "coconut_migrationformation_01.anim" }
+
+	#	coconut_01  position = { 0.000 0.000 0.000 }
+	#	coconut_02  position = { 2.000 0.000 2.000 }
+	#	coconut_03  position = { -2.000 0.000 2.000 }
+	#	coconut_04  position = { 4.000 0.000 4.000 }
+	#	coconut_05  position = { -4.000 0.000 4.000 }
+	#	coconut_06  position = { 6.000 0.000 6.000 }
+	#	coconut_07  position = { -6.000 0.000 6.000 }
+
+}
