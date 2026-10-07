@@ -1,4 +1,4 @@
-﻿bird_flock_east_atlantic = {
+﻿bird_flock_migratory_coconuts = {
 	entities = {
 
 		skin_1 = {
@@ -17,7 +17,7 @@
 	wintering_latitude = { 900 2044 }
 
 	breeding_regions = { region_western_europe }
-	wintering_regions = { region_north_africa }
+	wintering_regions = { region_north_africa  region_west_africa }
 
 	depart_in = { spring }
 	return_in = { autumn }
