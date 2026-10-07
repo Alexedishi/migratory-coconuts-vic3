@@ -2,7 +2,7 @@
 	entities = {
 
 		skin_1 = {
-			name = "migratory_coconut_01_entity"
+			name = "coconut_migration_formation_01_entity"
 			possible = {
 			}
 

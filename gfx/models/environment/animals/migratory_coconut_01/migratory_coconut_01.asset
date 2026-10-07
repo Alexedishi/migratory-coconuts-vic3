@@ -17,3 +17,25 @@ entity = {
 	name = "migratory_coconut_01_entity"
 	pdxmesh = "migratory_coconut_01_mesh"
 }
+
+entity = {
+	name = "coconut_migration_formation_01_entity"
+	pdxmesh = "coconut_migration_formation_01_mesh"
+
+	default_state = "coconut_migration_formation_01"
+	state = {
+		name = "coconut_migration_formation_01"
+		animation = "coconut_migration_formation_01"
+		looping = yes
+		start_event = { time = 0 keep_sound = yes sound = { soundeffect = "event:/SFX/Ambience/3D/Fauna/geese_migrating_group" } }
+	}
+
+	attach = { bird_01 = migratory_coconut_01_entity }
+	attach = { bird_02 = migratory_coconut_01_entity }
+	attach = { bird_03 = migratory_coconut_01_entity }
+	attach = { bird_04 = migratory_coconut_01_entity }
+	attach = { bird_05 = migratory_coconut_01_entity }
+	attach = { bird_06 = migratory_coconut_01_entity }
+	attach = { bird_07 = migratory_coconut_01_entity }
+
+}
